@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glenn-Developer Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: rgb(255, 255, 255);
+
+            .poppins-regular {
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(28, 28, 98);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul a:hover {
+
+            color: rgb(179, 179, 249);
+            font-size: 1.03rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px;
+            align-items: center;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+
+
+        }
+
+        .rightSection img {
+            width: 80%;
+
+
+        }
+
+        .purple {
+            color: rgb(158, 88, 223);
+        }
+
+        .text-gray {
+            color: gray;
+
+        }
+
+        #element {
+            color: rgb(158, 88, 223);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        main hr {
+            background-color: rgb(197, 153, 239);
+            border: 0;
+            height: 0.5px;
+            margin: 55px 84px;
+
+
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 75vw;
+            height: 2px;
+            margin: 75px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            background: white;
+            width: 1px;
+            height: 93px;
+            margin: 0 110px;
+
+        }
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            top: -45px;
+            left: -20px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        footer {
+
+            background-color: #03030d;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 130px;
+            justify-content: center;
+
+        }
+
+        .footer .footer-second {
+            margin: auto 220px;
+        }
+
+        .footer ul a {
+            list-style: none;
+            color: white;
+
+
+        }
+
+        footer .text-center {
+            color: gray;
+            font-size: 15px;
+            text-align: center;
+            padding: 12px 0;
+            cursor: pointer;
+        }
+
+        button {
+            background-color: #000021;
+            padding: 15px 25px;
+            color: white;
+            font-weight: bolder;
+            border: 1.5px solid snow;
+            border-radius: 15px;
+            
+
+        }
+        button:hover{
+            animation: 5s ease-in-out;
+            background-color: #60318a;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Glenn's Portfolio </div>
+            <div class="right">
+                <ul>
+                    <a href="http://127.0.0.1:5500/index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="https://www.linkedin.com/in/glenn-fernandes-806798290/">
+                        <li>Linkdin</li>
+                    </a>
+                    <a href="https://github.com/GlennFernandes1/python-beginners-">
+                        <li>Github</li>
+                    </a>
+                    <a href="https://www.instagram.com/glenn_fernandess/">
+                        <li>Instagram</li>
+                    </a>
+                    <a>
+                        <li>Email</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi my Name is
+                <div class="purple">Glenn Fernandes</div>
+                <div>And I am a Passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button onclick="location.href='https://www.instagram.com/glenn_fernandess/'">Download Resume</button>
+
+                </div>
+
+            </div>
+
+            <div class="rightSection">
+                <img src="GlennProfile.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Coding Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="img1.png">
+                    <div class="vertical-title">
+                        Started Coding (2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Started coding in my Pre University started with
+                        c++
+                    </div>
+
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="img2.png">
+                    <div class="vertical-title">
+                        C++ (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        In C++ I learnt about input and output statement and other basic
+                        coding concept.In 12th I learnt about OOP such as Classes and Object
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img3.png">
+                    <div class="vertical-title">
+                        SQL(2022)
+                    </div>
+                    <div class="vertical-desc">
+                        After learning C++,I learnt about SQL and database I learnt how to create
+                        a table and add/ alter values in sql database
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img4.png">
+                    <div class="vertical-title">
+                        HTML & CSS (2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        After learning about SQL. I started with frontend developement, I started
+                        with HTML fist. I had a knowledge about HTML in my High school. I learnt complex
+                        stuffs like creating time table and CV.after a year I started CSS
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="img5.png">
+                    <div class="vertical-title">
+                        Python(2024-TillDate)
+                    </div>
+                    <div class="vertical-desc">
+                        After learning C++ I started with Python. I started Python becouse
+                        Python was used for Machine Learning. ML was my BE course
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Glenn Fernandes Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <a href="/">
+                        <li>GO TO TOP</li>
+                    </a>
+                    
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="text-center">
+            glennfernandes111@gmail.com
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'AIML Engineer', 'Python coder'],
+            typeSpeed: 49,
+        });
+    </script>
+
+</body>
+
+</html>
